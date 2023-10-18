@@ -1,0 +1,10 @@
+#include <iostream>
+
+int main() {
+  // Add your code below  
+int weight;
+std::cout<<"enter your weight and i will tell you your weight on Mars.";
+std::cin>> weight;
+int Marsweight = weight * .38;
+std::cout<<"your weight is " <<Marsweight <<" pretty cool huh?\n";
+}
