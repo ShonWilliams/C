@@ -1,0 +1,60 @@
+#include <iostream>
+
+int main() {
+  std::cout<<"Whats your weight on Earth?\n";
+  int EarthWeight;
+  std::cin>>EarthWeight;
+  
+  std::cout<<"What planet would you like to fight?\n";
+  std::cout<< "1.Mercury , 2.Venus, 3.Earth, 4.Mars, 5.Jupiter, 6.Saturn, 7.Uranus, 8.Neptune \n";
+  int choice;
+  std::cin>>choice;
+
+  switch(choice){
+    case 1 :
+    std::cout<< EarthWeight * .38;
+    break;
+    case 2 :
+    std::cout<< EarthWeight * .91;
+    break;
+    case 3 :
+    std::cout<< "I think you know the answer \n";
+    break;
+    case 4 :
+    std::cout<< EarthWeight * .38;
+    break;
+    case 5 :
+    std::cout<< EarthWeight * 2.34;
+    break;
+    case 6 :
+    std::cout<< EarthWeight * 1.06;
+    break;
+    case 7 :
+    std::cout<< EarthWeight * .92;
+    break;
+    case 8 :
+    std::cout<< EarthWeight * 1.19;
+    break;
+    default :
+    std::cout<< "Enter an integer between 1-9 \n";
+    break;
+
+
+
+
+
+
+
+
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+}
